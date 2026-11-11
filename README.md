@@ -60,11 +60,7 @@ Details are in [`docs/FEATURES_V4.md`](docs/FEATURES_V4.md). The three native it
 
 | Build | Folder | Notes |
 |---|---|---|
-| 0.2.0 | `release/` | Phase-1 transceiver (ACK/retry, translation, map, queue). Left untouched. |
-| 0.3.0 | `release-v2/` | Adds coordination, mesh v2, beacon, battery channel. arm64 APK + SHA-256. |
-| 0.4.0 | `release-v3/` | iTantra 0.4.0 field coordination (kept unchanged). |
-| 0.5.0 | `release-sahara/` | Sahara with mesh v3 routing, time sync, relay mode, incident map, MBTiles import and breadcrumbs. |
-| 0.6.0 | `release-sahara/` | Adds LE Coded PHY, Wi-Fi Aware and real-time Codec2 voice. |
+| 0.6.0 | `release-sahara/` | Sahara release with LE Coded PHY, Wi-Fi Aware, real-time Codec2 voice, mesh v3 routing, field clock, incident map, and responder breadcrumbs. |
 
 ## 🛠️ Technology Stack
 
@@ -96,5 +92,5 @@ Designed strictly for inclusivity and disaster-resilience in developing regions:
 ---
 
 ## 👥 Contributors & Team
-Developed by **Team Sahara** for the Smart India Hackathon. 
+Developed by **Team Sahara**. 
 *An open-source initiative to build a resilient, voice-driven communication grid when all infrastructure collapses.*

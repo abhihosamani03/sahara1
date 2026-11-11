@@ -32,18 +32,11 @@ audio behaviour is compile-verified rather than field-tested.
 | minSdk / targetSdk | 24 / 36 |
 | Signing | Android debug certificate, APK Signature Scheme V2 |
 
-Because the package id differs from `com.example.voice`, this installs
-alongside the iTantra app rather than replacing it. The two apps keep
-separate settings, ledgers and message history; the radio mesh is shared
-only when both are running on the same phone (one radio owner at a time).
-
 Install with:
 
 ```bash
 adb install -r release-sahara/Sahara-0.6.0-arm64-v8a.apk
 ```
-
-The iTantra APKs in `release/`, `release-v2/` and `release-v3/` are unchanged.
 
 Interoperability: the radios and text mesh are compatible with a 0.5.0 phone,
 but live Codec2 voice is not — an older build ignores packet type `0xE`. Wi-Fi

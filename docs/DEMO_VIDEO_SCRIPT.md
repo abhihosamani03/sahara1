@@ -1,4 +1,4 @@
-# Sahara — 4-Minute SIH Evaluation Video Script
+# Sahara — 4-Minute Hackathon Demo Video Script
 
 Word-for-word spoken script, timed to exactly 4:00. Total spoken budget ≈ 575
 words (~145 wpm) — read it at a normal, unhurried pace and it lands on time.
