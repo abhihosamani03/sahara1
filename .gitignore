@@ -1,0 +1,59 @@
+# ── Flutter / Dart ──────────────────────────────────
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# ── Build outputs ───────────────────────────────────
+build/
+dist/
+*.apk
+*.aab
+*.ipa
+# The shipped release APK is tracked on purpose
+!release/*.apk
+
+# ── Android ─────────────────────────────────────────
+android/.gradle/
+android/.kotlin/
+android/app/build/
+android/local.properties
+android/key.properties
+android/hs_err_pid*.log
+android/replay_pid*.log
+android/captures/
+android/.cxx/
+*.jks
+*.keystore
+
+# ── IDE ─────────────────────────────────────────────
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+*~
+
+# ── Environment / Secrets ───────────────────────────
+.env
+.env.local
+.env.*.local
+*.pem
+
+# ── OS ──────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# ── Local ML models (downloaded at runtime; too large for git) ──
+# The APK bundles only the VAD model, which stays tracked.
+assets/models/stt/
+assets/models_raw/
+
+# ── Tooling ─────────────────────────────────────────
+.widget_preview/
+.freebuff/
+
+# Build/scratch logs
+build.log
